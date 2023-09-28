@@ -1728,7 +1728,7 @@ dependencies = [
  "graph",
  "graphql-parser",
  "graphql-tools",
- "indexmap 2.0.0",
+ "indexmap 2.0.1",
  "lazy_static",
  "parking_lot 0.12.1",
  "stable-hash 0.3.4",
@@ -2334,9 +2334,9 @@ dependencies = [
 
 [[package]]
 name = "indexmap"
-version = "2.0.0"
+version = "2.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d5477fe2230a79769d8dc68e0eabf5437907c0457a5614a9e8dddb67f65eb65d"
+checksum = "ad227c3af19d4914570ad36d30409928b75967c298feb9ea1969db3a610bb14e"
 dependencies = [
  "equivalent",
  "hashbrown 0.14.0",
@@ -3128,7 +3128,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e1d3afd2628e69da2be385eb6f2fd57c8ac7977ceeff6dc166ff1657b0e386a9"
 dependencies = [
  "fixedbitset",
- "indexmap 2.0.0",
+ "indexmap 2.0.1",
 ]
 
 [[package]]
@@ -3985,7 +3985,7 @@ dependencies = [
  "chrono",
  "hex",
  "indexmap 1.9.3",
- "indexmap 2.0.0",
+ "indexmap 2.0.1",
  "serde",
  "serde_json",
  "time",
@@ -4788,7 +4788,7 @@ version = "0.19.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c500344a19072298cd05a7224b3c0c629348b78692bf48466c5238656e315a78"
 dependencies = [
- "indexmap 2.0.0",
+ "indexmap 2.0.1",
  "serde",
  "serde_spanned",
  "toml_datetime",
